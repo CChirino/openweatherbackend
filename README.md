@@ -32,7 +32,7 @@ Ahora vamos a levantar nuestro contenedor con el siguiente comando : **docker-co
 
 En la carpeta openweatherbackend ejecuta en el bash
 
-docker exec -it openweatherbackend bash
+**docker exec -it openweatherbackend bash**
 
 En el bash corre lo siguiente: 
 
