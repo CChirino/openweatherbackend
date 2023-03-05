@@ -57,4 +57,10 @@ Si se desean correr pruebas este es el comando
 	 php artisan test
 
 
-Ya quedaria listo nuestro backend
+Posteriormente vamos a consultar los siguiente endpoints, para actualizar nuestra humedad:
+
+    http://openweather.local:8083/api/v1/humidity-city?city=New%20York
+    http://openweather.local:8083/api/v1/humidity-city?city=chicago
+    http://openweather.local:8083/api/v1/humidity-city?city=miami
+
+Ya quedaria listo nuestro backend y podemos proceder a configurar el frontend
