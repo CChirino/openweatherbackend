@@ -1,7 +1,7 @@
 # Tecnologias Usadas 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
- Este blog, es una proyecto sencillo con su administrador y su vistas de cliente. Se construyo con las siguientes tecnologias:
+Se creo el API REST en base laravel para su consumo en el frontend
 
 * PHP 8.1
 * Laravel 10
