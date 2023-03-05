@@ -19,8 +19,11 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::resource('weather', WeatherController::class);
-Route::get('/humidity-city', [WeatherController::class, 'humidityCity']);
+Route::prefix('v1')->group(function () {
+    Route::get('/weather', [WeatherController::class, 'index']);
+    Route::get('/humidity-city', [WeatherController::class, 'humidityCity']);
+
+});
 
 
 
