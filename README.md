@@ -10,7 +10,7 @@
 * Docker
 
 
-# Instalacion:
+# Instalacion 🚀:
 
 
 Te voy a enseñar el paso a paso para configurar tu entorno local, en este caso con docker vamos a empezar!, necesitamos instalar **Docker** aca te dejo tutoriales, para los distintos sistemas operativos
