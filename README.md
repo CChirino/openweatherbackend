@@ -7,6 +7,7 @@
 * Laravel 10
 * MySQL
 * Apache
+* Docker
 
 
 # Instalacion:
