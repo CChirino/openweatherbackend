@@ -1,4 +1,15 @@
-# Bienvenido a este proyecto!
+# Tecnologias Usadas 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+ Este blog, es una proyecto sencillo con su administrador y su vistas de cliente. Se construyo con las siguientes tecnologias:
+
+* PHP 8.1
+* Laravel 10
+* MySQL
+* Apache
+
+
+# Instalacion:
 
 
 Te voy a enseñar el paso a paso para configurar tu entorno local, en este caso con docker vamos a empezar!, necesitamos instalar **Docker** aca te dejo tutoriales, para los distintos sistemas operativos
@@ -39,6 +50,10 @@ En el bash corre lo siguiente:
 	composer install
 	php artisan key:generate
 	php artisan  db:seed
+    
+Si se desean correr pruebas este es el comando
+
+	 php artisan test
 
 
 Ya quedaria listo nuestro backend
